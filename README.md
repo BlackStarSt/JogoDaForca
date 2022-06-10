@@ -14,3 +14,5 @@ Olá esse é o 2° projeto que eu realizei no programa ONE(Oracle Next Education
 
 <strong>Ganhar o jogo</strong>
 ![image](https://user-images.githubusercontent.com/101078506/173144764-39b552f1-86b4-4faf-b5eb-7020865efe6d.png)
+
+=>Um agradecimento especial ao: Italo Rissardi (https://github.com/itariss).
