@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+
+#adiciona-palavra {
+    position: relative;
+    top: 240px;
+    left: 557px;
+}
+
+#botao-inicia, #botao-adiciona{
+    position: relative;
+    top: 240px;
+    left: 5px;
+}
+
+#botao-novo-jogo{
+    position: relative;
+    top: 180px;
+    left: 557px;
+}
+
+button {
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    margin: 20px 5px auto;
+    border: 2px rebeccapurple solid;
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    display: none;
+    text-transform: uppercase;
+    border: 2px rebeccapurple solid;
+    position: relative;
+    top: 10px;
+    left: 556px;
+}
+
+canvas {
+    display: none;
+    position: relative;
+    left: 75px;
+    top: 90px;
+    border: rebeccapurple;
+    border-style: solid;
+    background-color: white;
+    z-index: -1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 12px 0 2px;
+    border-top: 2px solid rebeccapurple;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: white;
+}

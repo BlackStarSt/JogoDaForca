@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width" charset="UTF-8">
+        <title>&#128123; | Jogo da Forca</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index-style.css">
+    </head>
+
+    <body>
+        <section>
+            <div id="container-botoes">
+                <button id="adiciona-palavra" type="submit" style="display: none;">Adicionar</button>
+                <button id="botao-inicia" type="submit">Iniciar</button>
+                <button id="botao-novo-jogo" type="reset" style="display: none;">Novo jogo</button>
+                <button id="botao-adiciona" type="submit">Adicionar palavras</button>
+                <input type="text" id="nova-palavra" style="display: none;" pattern="[A-Za]+$">
+            </div>
+            <div id="container-canvas">
+                <canvas width="1200" height="800"></canvas>
+            </div>
+
+        </section>
+        <script src="js/inicia-jogo.js"></script>
+        <script src="js/palavra-secreta.js"></script>
+        <script src="js/desenha-forca.js"></script>
+
+    </body>
+
+    <footer>
+        &copy;Sthefany Alves - Alura & Oracle/ONE 
+    </footer>
+</html>
